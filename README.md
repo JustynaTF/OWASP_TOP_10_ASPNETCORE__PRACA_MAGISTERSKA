@@ -1,4 +1,4 @@
-# OWASP TOP 10 – ASP.NET Core (2021)
+# OWASP TOP 10 – ASP.NET Core (2021) - Praca Magisterska
 
 Projekt ten powstał jako część pracy magisterskiej poświęconej analizie błędów programistycznych prowadzących do podatności według klasyfikacji **OWASP Top 10:2021** Zawiera on wybrane przykłady podatności zaimplementowane w technologii **ASP.NET Core** – zarówno w wersjach podatnych, jak i zabezpieczonych – w celu ich demonstracji, analizy oraz edukacji.
 
