@@ -1,8 +1,0 @@
-version: "3.8"
-services:
-  password-in-log-demo:
-    build:
-      context: ./A09_SecurityLoggingandMonitoringFailures_PasswordinLog
-      dockerfile: ./Dockerfile
-    ports:
-      - "5000:8080"

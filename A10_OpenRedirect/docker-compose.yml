@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  open-redirect-demo:
+    build:
+      context: ./A10_OpenRedirect
+    ports:
+      - "5000:8080"

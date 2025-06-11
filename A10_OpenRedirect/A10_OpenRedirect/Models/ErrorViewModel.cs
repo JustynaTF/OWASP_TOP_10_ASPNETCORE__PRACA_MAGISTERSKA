@@ -1,4 +1,4 @@
-namespace A09_SecurityLoggingandMonitoringFailures_PasswordinLog.Models;
+namespace A10_OpenRedirect.Models;
 
 public class ErrorViewModel
 {
