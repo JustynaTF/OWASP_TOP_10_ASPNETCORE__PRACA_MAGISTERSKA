@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using A02_WeakEncodingforPassword.Models;
+using A03_Injection_XSS.Models;
 
-namespace A02_WeakEncodingforPassword.Controllers;
+namespace A03_Injection_XSS.Controllers;
 
 public class HomeController : Controller
 {

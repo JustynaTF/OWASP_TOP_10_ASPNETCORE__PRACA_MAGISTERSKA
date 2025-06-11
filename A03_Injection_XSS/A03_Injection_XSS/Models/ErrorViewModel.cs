@@ -1,4 +1,4 @@
-namespace A02_WeakEncodingforPassword.Models;
+namespace A03_Injection_XSS.Models;
 
 public class ErrorViewModel
 {

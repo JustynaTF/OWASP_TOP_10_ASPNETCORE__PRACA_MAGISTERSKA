@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A02_CryptographicFailures_WeakEncodingforPassword\\A02_WeakEncodingforPassword\\A02_WeakEncodingforPassword.csproj",
-      "projectName": "A02_WeakEncodingforPassword",
-      "projectPath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A02_CryptographicFailures_WeakEncodingforPassword\\A02_WeakEncodingforPassword\\A02_WeakEncodingforPassword.csproj",
+      "projectUniqueName": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A03_Injection_CSRF\\A03_Injection_XSS\\A03_Injection_XSS.csproj",
+      "projectName": "A03_Injection_XSS",
+      "projectPath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A03_Injection_CSRF\\A03_Injection_XSS\\A03_Injection_XSS.csproj",
       "packagesPath": "C:\\Users\\justo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A02_CryptographicFailures_WeakEncodingforPassword\\A02_WeakEncodingforPassword\\obj\\",
+      "outputPath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A03_Injection_CSRF\\A03_Injection_XSS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justo\\AppData\\Roaming\\NuGet\\NuGet.Config"
