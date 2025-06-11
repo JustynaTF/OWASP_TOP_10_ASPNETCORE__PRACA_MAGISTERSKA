@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A01_BrokenAccessControl_IDOR\\A01_BrokenAccessControl_IDOR.csproj",
-      "projectName": "A01_BrokenAccessControl_IDOR",
-      "projectPath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A01_BrokenAccessControl_IDOR\\A01_BrokenAccessControl_IDOR.csproj",
+      "projectUniqueName": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A02_CryptographicFailures\\A02_Use_of_Hard-coded_Cryptographic_Key\\A02_Use_of_Hard-coded_Cryptographic_Key.csproj",
+      "projectName": "A02_Use_of_Hard-coded_Cryptographic_Key",
+      "projectPath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A02_CryptographicFailures\\A02_Use_of_Hard-coded_Cryptographic_Key\\A02_Use_of_Hard-coded_Cryptographic_Key.csproj",
       "packagesPath": "C:\\Users\\justo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A01_BrokenAccessControl_IDOR\\obj\\",
+      "outputPath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A02_CryptographicFailures\\A02_Use_of_Hard-coded_Cryptographic_Key\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justo\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,4 +1,4 @@
-namespace A01_BrokenAccessControl_IDOR.Models;
+namespace A02_Use_of_Hard_coded_Cryptographic_Key.Models;
 
 public class ErrorViewModel
 {
