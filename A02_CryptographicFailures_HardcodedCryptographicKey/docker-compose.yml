@@ -1,9 +1,0 @@
-services:
-  crypto-demo:
-    build:
-      context: ./A02_Use_of_Hard-coded_Cryptographic_Key
-      dockerfile: Dockerfile
-    ports:
-      - "5000:8080"
-    environment:
-      - APP_SECRET=VERY-SECRET-ENV-KEY

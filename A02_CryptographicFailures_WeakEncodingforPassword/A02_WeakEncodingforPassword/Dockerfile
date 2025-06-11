@@ -7,6 +7,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 COPY --from=build /app/publish .
 ENV ASPNETCORE_URLS=http://+:8080
-ENTRYPOINT ["dotnet", "A02_Use_of_Hard-coded_Cryptographic_Key.dll"]
-
-
+ENTRYPOINT ["dotnet", "A02_WeakEncodingforPassword.dll"]

@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using A02_Use_of_Hard_coded_Cryptographic_Key.Models;
+using A02_WeakEncodingforPassword.Models;
 
-namespace A02_Use_of_Hard_coded_Cryptographic_Key.Controllers;
+namespace A02_WeakEncodingforPassword.Controllers;
 
 public class HomeController : Controller
 {

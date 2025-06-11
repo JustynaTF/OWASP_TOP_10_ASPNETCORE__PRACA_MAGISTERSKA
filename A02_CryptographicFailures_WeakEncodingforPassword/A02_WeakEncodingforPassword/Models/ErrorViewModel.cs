@@ -1,4 +1,4 @@
-namespace A02_Use_of_Hard_coded_Cryptographic_Key.Models;
+namespace A02_WeakEncodingforPassword.Models;
 
 public class ErrorViewModel
 {

@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "dgSpecHash": "JK4On/sjqFE=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\justo\\Desktop\\OWASP_TOP_10_ASPNETCORE\\A02_CryptographicFailures\\A02_Use_of_Hard-coded_Cryptographic_Key\\A02_Use_of_Hard-coded_Cryptographic_Key.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
-}
