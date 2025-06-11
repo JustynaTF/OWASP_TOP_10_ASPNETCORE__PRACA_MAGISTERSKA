@@ -1,0 +1,6 @@
+services:
+  idor-demo:
+    build:
+      context: ./A01_BrokenAccessControl_IDOR
+    ports:
+      - "5000:8080"
