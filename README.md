@@ -37,18 +37,18 @@ A następnie wejdź w przeglądarkę pod adres `http://localhost:5000`.
 
 ## 📌 OWASP Top 10:2021 – Pokrycie w tym repozytorium
 
-| Kategoria                         | Status | Folder i Branch                          |
-|----------------------------------|--------|------------------------------------------|
-| A01 – Broken Access Control      | ✅     | `A01_BrokenAccessControl_IDOR`           |
-| A02 – Cryptographic Failures     | ✅     | `A02_CryptographicFailures_*`            |
-| A03 – Injection                  | ✅     | `A03_Injection_*`                        |
-| A04 – Insecure Design            | ✅     | `A10_OpenRedirect`                       |
-| A05 – Security Misconfiguration  | ✅     | `A05_SecurityMisconfiguration_*`         |
-| A06 – Vulnerable Components      | ✅     | `A06_*`                                  |
-| A07 – Identification Failures    | ✅     | `A07_*`                                  |
-| A08 – Software & Data Integrity  | ✅     | `A08_*`                                  |
-| A09 – Logging & Monitoring       | ✅     | `A09_SecurityLoggingandMonitoring*`      |
-| A10 – Server-Side Request Forg.  | ✅     | `A10-2021/SSRF`                          |
+| Kategoria                         | Status | Branch                                                                          |
+|----------------------------------|--------|--------------------------------------------------------------------------------- |
+| A01 – Broken Access Control      | ✅     | `A01-2021/IDOR`                                                                 |
+| A02 – Cryptographic Failures     | ✅     | `A02-2021/HardcodedCryptographicKey` oraz `A02-2021/WeakEncodingforPassword`    |
+| A03 – Injection                  | ✅     | `A03-2021/CSRF` oraz `A03-2021/XSS`                                             |
+| A04 – Insecure Design            | ✅     | `A04_*`                                                                         |
+| A05 – Security Misconfiguration  | ✅     | `A05-2021/TokenCookieNoExpire`                                                  |
+| A06 – Vulnerable Components      | ✅     | `A06_*`                                                                         |
+| A07 – Identification Failures    | ✅     | `A07_*`                                                                         |
+| A08 – Software & Data Integrity  | ✅     | `A08_*`                                                                         |
+| A09 – Logging & Monitoring       | ✅     | `A09-2021/PasswordinLog`                                                        |
+| A10 – Server-Side Request Forg.  | ✅     | `A10-2021/OpenRedirect`                                                         |
 
 ---
 
