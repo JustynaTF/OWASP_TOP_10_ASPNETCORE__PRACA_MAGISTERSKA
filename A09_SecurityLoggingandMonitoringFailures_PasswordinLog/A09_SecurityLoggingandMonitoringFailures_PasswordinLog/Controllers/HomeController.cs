@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using A05_SecurityMisconfiguration_TokenCookieNoExpire.Models;
+using A09_SecurityLoggingandMonitoringFailures_PasswordinLog.Models;
 
-namespace A05_SecurityMisconfiguration_TokenCookieNoExpire.Controllers;
+namespace A09_SecurityLoggingandMonitoringFailures_PasswordinLog.Controllers;
 
 public class HomeController : Controller
 {

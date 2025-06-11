@@ -1,4 +1,4 @@
-namespace A05_SecurityMisconfiguration_TokenCookieNoExpire.Models;
+namespace A09_SecurityLoggingandMonitoringFailures_PasswordinLog.Models;
 
 public class ErrorViewModel
 {
