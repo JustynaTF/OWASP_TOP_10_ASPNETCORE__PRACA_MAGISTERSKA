@@ -1,7 +1,0 @@
-services:
-  token-cookie-demo:
-    build:
-      context: ./A05_SecurityMisconfiguration_TokenCookieNoExpire
-      dockerfile: Dockerfile
-    ports:
-      - "5000:8080"
