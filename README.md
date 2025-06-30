@@ -86,15 +86,15 @@ Invalid redirect URL.
 Prawidłowe działanie aplikacji można poznać po następujących widokach:
 
 ### Ekran startowy:
-![Widok początkowy](A04_OpenRedirect\A04_screeny\Ekran_startowy.png)
+![Ekran_startowy](https://github.com/user-attachments/assets/13871e4f-6be1-4675-bab0-2d8ea6ed0d91)
 
 ### Wersja podatna:
+![Vulnerable](https://github.com/user-attachments/assets/b9cf5524-e9d0-4f0c-8d13-e7a03fe9e06b)
 
-![Widok wersji podatnej](A04_OpenRedirect\A04_screeny\Vulnerable.png)
 
 ### Wersja bezpieczna:
+![Secure](https://github.com/user-attachments/assets/d5a0e8dd-d403-4a6d-9dc2-d350117210b5)
 
-![Widok wersji bezpiecznej](A04_OpenRedirect\A04_screeny\Secure.png)
 
 ---
 
