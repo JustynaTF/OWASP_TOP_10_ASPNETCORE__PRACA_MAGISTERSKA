@@ -37,18 +37,18 @@ A następnie wejdź w przeglądarkę pod adres `http://localhost:5000`.
 
 ## 📌 OWASP Top 10:2021 – Pokrycie w tym repozytorium
 
-| Kategoria                         | Status | Branch                                                                          |
-|----------------------------------|--------|--------------------------------------------------------------------------------- |
-| A01 – Broken Access Control      | ✅     | `A01-2021/IDOR`                                                                 |
-| A02 – Cryptographic Failures     | ✅     | `A02-2021/HardcodedCryptographicKey` oraz `A02-2021/WeakEncodingforPassword`    |
-| A03 – Injection                  | ✅     | `A03-2021/CSRF` oraz `A03-2021/XSS`                                             |
-| A04 – Insecure Design            | ✅     | `A04_*`                                                                         |
-| A05 – Security Misconfiguration  | ✅     | `A05-2021/TokenCookieNoExpire`                                                  |
-| A06 – Vulnerable Components      | ✅     | `A06_*`                                                                         |
-| A07 – Identification Failures    | ✅     | `A07_*`                                                                         |
-| A08 – Software & Data Integrity  | ✅     | `A08_*`                                                                         |
-| A09 – Logging & Monitoring       | ✅     | `A09-2021/PasswordinLog`                                                        |
-| A10 – Server-Side Request Forg.  | ✅     | `A10-2021/OpenRedirect`                                                         |
+| Kategoria                          | Status | Branch                                                                          |
+|------------------------------------|--------|--------------------------------------------------------------------------------- |
+| A01 – Broken Access Control        | ✅     | `A01-2021/IDOR`                                                                 |
+| A02 – Cryptographic Failures       | ✅     | `A02-2021/HardcodedCryptographicKey` oraz `A02-2021/WeakEncodingforPassword`    |
+| A03 – Injection                    | ✅     | `A03-2021/CSRF` oraz `A03-2021/XSS`                                             |
+| A04 – Insecure Design              | ✅     | `A04-2021/OpenRedirect`                                                                         |
+| A05 – Security Misconfiguration    | ✅     | `A05-2021/TokenCookieNoExpire`                                                  |
+| A06 – Vulnerable Components        | ✅     | `A06_*`                                                                         |
+| A07 – Identification Failures      | ✅     | `A07_*`                                                                         |
+| A08 – Software & Data Integrity    | ✅     | `A08_*`                                                                         |
+| A09 – Logging & Monitoring         | ✅     | `A09-2021/PasswordinLog`                                                        |
+| A10 – Server-Side Request Forgery  | ✅     | `A10_*`                                                         |
 
 ---
 
