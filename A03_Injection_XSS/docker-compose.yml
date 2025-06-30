@@ -1,0 +1,7 @@
+services:
+  xss-demo:
+    build:
+      context: ./A03_Injection_XSS
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"

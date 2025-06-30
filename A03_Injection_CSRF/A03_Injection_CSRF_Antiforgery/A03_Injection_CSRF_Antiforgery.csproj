@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>A03_Injection_CSRF_Antiforgery</AssemblyName>
+    <RootNamespace>A03_Injection_CSRF_Antiforgery</RootNamespace>
+  </PropertyGroup>
+</Project>

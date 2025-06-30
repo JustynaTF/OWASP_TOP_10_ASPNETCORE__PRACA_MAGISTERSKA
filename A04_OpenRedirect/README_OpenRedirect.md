@@ -1,4 +1,4 @@
-# A10 – Open Redirect (ASP.NET Core)
+# A04 Insecure Design – Open Redirect (ASP.NET Core)
 
 ## 📌 Opis podatności
 
@@ -25,8 +25,8 @@ Aby uruchomić projekt lokalnie, potrzebujesz:
 1. **Sklonuj repozytorium**
 
    ```bash
-   git clone https://github.com/twoj-login/OWASP_TOP_10_ASPNETCORE.git
-   cd OWASP_TOP_10_ASPNETCORE/A10_OpenRedirect
+   git clone https://github.com/JustynaTF/OWASP_TOP_10_ASPNETCORE.git
+   cd OWASP_TOP_10_ASPNETCORE/A04_OpenRedirect
    ```
 
 2. **Uruchom kontener Docker**
@@ -86,15 +86,15 @@ Invalid redirect URL.
 Prawidłowe działanie aplikacji można poznać po następujących widokach:
 
 ### Ekran startowy:
-![Ekran_startowy](https://github.com/user-attachments/assets/cf7d1e58-e72c-4727-84b5-85a11cb8d176)
-
+![Widok początkowy](A04_OpenRedirect\A04_screeny\Ekran_startowy.png)
 
 ### Wersja podatna:
-![Vulnerable](https://github.com/user-attachments/assets/45ba685b-4888-4988-922d-8b9ae1bff0f4)
 
+![Widok wersji podatnej](A04_OpenRedirect\A04_screeny\Vulnerable.png)
 
 ### Wersja bezpieczna:
-![Secure](https://github.com/user-attachments/assets/fc25d629-d7c3-4400-8f1d-826398e8d899)
+
+![Widok wersji bezpiecznej](A04_OpenRedirect\A04_screeny\Secure.png)
 
 ---
 
