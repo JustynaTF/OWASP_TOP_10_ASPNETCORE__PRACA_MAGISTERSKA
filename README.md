@@ -25,7 +25,8 @@ Ten projekt demonstruje podatność typu **XSS (Cross-Site Scripting)** zgodnie 
 
    ```
   ### Ekran początkowy:
-![Uploading Ekran_startowy.png…]()
+![Ekran__startowy](https://github.com/user-attachments/assets/78ba7f8c-0327-45f5-be2b-21934e033806)
+
 
 
 ---
