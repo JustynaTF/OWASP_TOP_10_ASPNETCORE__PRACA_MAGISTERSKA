@@ -26,6 +26,20 @@ Ten projekt demonstruje podatność z kategorii A02:2021 OWASP Top 10 – „Cry
    docker-compose up --build
    ```
 
+UWAGA: Ustawienie zmiennej środowiskowej `APP_SECRET`
+
+Bezpieczna wersja aplikacji (`GET /crypto/secure`) korzysta ze zmiennej środowiskowej `APP_SECRET`, która przechowuje klucz poza kodem źródłowym.
+
+W tym projekcie zmienna ta została zdefiniowana w pliku `docker-compose.override.yml`, który jest automatycznie odczytywany podczas uruchamiania Dockera:
+
+```yaml
+# docker-compose.override.yml
+services:
+  app:
+    environment:
+      - APP_SECRET=VERY-SECRET-ENV-KEY
+```
+
 4. Aplikacja będzie dostępna pod adresem: [http://localhost:5000](http://localhost:5000)
 
 ## 🧪 Testowanie
@@ -33,35 +47,21 @@ Ten projekt demonstruje podatność z kategorii A02:2021 OWASP Top 10 – „Cry
 Po uruchomieniu aplikacji otwórz przeglądarkę i przejdź pod wskazane adresy:
 
 - **Ekran startowy (index):** [http://localhost:5000](http://localhost:5000)  
-  ![Ekran startowy](Ekran_startowy.png)
+![Ekran_startowy](https://github.com/user-attachments/assets/5cf7bb1b-4b07-49c3-a5e0-fe27a6473417)
+
 
 - **Wersja podatna:** [http://localhost:5000/crypto/vulnerable](http://localhost:5000/crypto/vulnerable)  
-  ![Wersja podatna](Vulnerable.png)
+![Vulnerable](https://github.com/user-attachments/assets/46ab1215-4577-4d36-aa48-baf8c226e14e)
+
 
 - **Wersja bezpieczna:** [http://localhost:5000/crypto/secure](http://localhost:5000/crypto/secure)  
-  ![Wersja bezpieczna](Secure.png)
+![Secure](https://github.com/user-attachments/assets/f8e4db2a-cc77-41d4-8554-df270011cdd5)
+
 
 ## 🛡️ Opis działania
 
 - `GET /crypto/vulnerable` – zwraca tajny klucz zakodowany na stałe w kodzie źródłowym (`HARDOCDED-SECRET-12345`). Jest to przykład podatności.
 - `GET /crypto/secure` – zwraca wartość pobraną z zmiennej środowiskowej `APP_SECRET`. To bezpieczne podejście do zarządzania sekretami.
-
----
-
-## 📸 Zrzuty ekranu
-
-Prawidłowe działanie aplikacji można poznać po następujących widokach:
-
-### Ekran startowy:
-![Widok początkowy](A02_CryptographicFailures\A02_screeny\Ekran_startowy.png)
-
-### Wersja podatna:
-
-![Widok wersji podatnej](A03_Injection_CSRF\A03_screeny\Vulnerable.png)
-
-### Wersja bezpieczna:
-
-![Widok wersji bezpiecznej](A03_Injection_CSRF\A03_screeny\Secure.png)
 
 ---
 
