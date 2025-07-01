@@ -33,9 +33,7 @@ Bezpieczna wersja aplikacji (`GET /crypto/secure`) korzysta ze zmiennej środowi
 W tym projekcie zmienna ta została zdefiniowana w pliku `docker-compose.override.yml`, który jest automatycznie odczytywany podczas uruchamiania Dockera:
 
 ```yaml
-# docker-compose.override.yml
-services:
-  app:
+# docker-compose.yml
     environment:
       - APP_SECRET=VERY-SECRET-ENV-KEY
 ```
