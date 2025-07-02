@@ -30,7 +30,7 @@ UWAGA: Ustawienie zmiennej środowiskowej `APP_SECRET`
 
 Bezpieczna wersja aplikacji (`GET /crypto/secure`) korzysta ze zmiennej środowiskowej `APP_SECRET`, która przechowuje klucz poza kodem źródłowym.
 
-W tym projekcie zmienna ta została zdefiniowana w pliku `docker-compose.override.yml`, który jest automatycznie odczytywany podczas uruchamiania Dockera:
+W tym projekcie zmienna ta została zdefiniowana w pliku `docker-compose.yml`, który jest automatycznie odczytywany podczas uruchamiania Dockera:
 
 ```yaml
 # docker-compose.yml
